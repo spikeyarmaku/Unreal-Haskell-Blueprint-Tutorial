@@ -2,13 +2,13 @@
 Using Haskell + Stack with Unreal Engine 4 (Blueprint version)
 
 1. Create a project in UnrealEngine. I'm going to name it "HsDllTest"
-![New project](https://github.com/gizmo-mk0/Unreal-Haskell/_images/new_project.png)
+![New project](https://github.com/gizmo-mk0/Unreal-Haskell/master/_images/new_project.png)
 2. Go to the project folder, and create a folder. I will name it "Plugins".
-![New directory](https://github.com/gizmo-mk0/Unreal-Haskell/_images/folder.png)
+![New directory](https://github.com/gizmo-mk0/Unreal-Haskell/master/_images/folder.png)
 3. Create a new stack project in it. I will call it "HsLib" and use the "simple-library" template:
 ```...\HsDllTest\Plugins> stack new HsLib simple-library```
 4. In the .cabal file, add this line: "ghc-options: -shared"
-![New entry in the cabal file](https://github.com/gizmo-mk0/Unreal-Haskell/_images/cabal.png)
+![New entry in the cabal file](https://github.com/gizmo-mk0/Unreal-Haskell/master/_images/cabal.png)
 5. Paste this to Lib.hs:
 ```haskell
 {-# LANGUAGE ForeignFunctionInterface #-}
@@ -207,6 +207,6 @@ class HSDLLTEST_API UHsDllTestBFL : public UBlueprintFunctionLibrary
 10. Hit the compile button in the editor
 11. Create a blueprint class. I'll name it "HsDllActor"
 12. Create this blueprint:
-![Blueprint](https://github.com/gizmo-mk0/Unreal-Haskell/_images/blueprint.png)
+![Blueprint](https://github.com/gizmo-mk0/Unreal-Haskell/master/_images/blueprint.png)
 13. Compile, and save. Drag it to the map, and press play. Relieve that it works.
-![It works!](https://github.com/gizmo-mk0/Unreal-Haskell/_images/it_works.png)
+![It works!](https://github.com/gizmo-mk0/Unreal-Haskell/master/_images/it_works.png)
