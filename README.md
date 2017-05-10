@@ -1,5 +1,4 @@
-# Unreal-Haskell
-Using Haskell + Stack with Unreal Engine 4 (Blueprint version)
+# Using Haskell + Stack with Unreal Engine 4 (Blueprint version)
 
 1. Create a project in UnrealEngine. I'm going to name it "HsDllTest"    
 ![New project](https://github.com/gizmo-mk0/Unreal-Haskell/raw/master/_images/new_project.png)
