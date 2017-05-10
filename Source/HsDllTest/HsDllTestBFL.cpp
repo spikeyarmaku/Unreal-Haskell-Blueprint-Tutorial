@@ -33,7 +33,6 @@ bool UHsDllTestBFL::importDLL(FString folder, FString name)
 
 #pragma region Import Methods
 
-// Imports the method getInvertedBool from the DLL.
 bool UHsDllTestBFL::importMethod_hsAdder()
 {
 	if (v_dllHandle != NULL)
@@ -83,7 +82,6 @@ bool UHsDllTestBFL::importMethod_hs_exit()
 
 #pragma region Method Calls
 
-// Calls the method getInvertedBoolFromDll that was imported from the DLL.
 int32 UHsDllTestBFL::hsAdder(int32 a, int32 b)
 {
 	if (m_hsAdder != NULL)
