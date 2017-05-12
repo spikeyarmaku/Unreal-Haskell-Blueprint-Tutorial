@@ -1,5 +1,7 @@
 # Using Haskell + Stack with Unreal Engine 4 on Windows (Blueprint version)
 
+(Source for the Unreal Engine part: https://wiki.unrealengine.com/Linking_Dlls)
+
 1. Create a project in UnrealEngine. I'm going to name it "HsDllTest"    
 ![New project](https://github.com/gizmo-mk0/Unreal-Haskell/raw/master/_images/new_project.png)
 2. Go to the project folder, and create a folder. I will name it "Plugins".    
